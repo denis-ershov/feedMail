@@ -38,3 +38,4 @@ if (mail($admin_email, adopt($form_subject), $message, $headers )) {
     http_response_code(400);
     echo "Ошибка. Данные не отправлены.";
 };
+?>
