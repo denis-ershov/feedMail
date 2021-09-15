@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>feedMail</title>
+  </head>
+  <body>
+    <form>
+      <!-- Hidden Required Fields -->
+      <input type="hidden" name="project_name" value="Название сайта" />
+      <input type="hidden" name="admin_email" value="admin@mail.ru" />
+      <input type="hidden" name="form_subject" value="Тема письма" />
+      <!-- END Hidden Required Fields -->
+
+      <input type="text" name="Name" placeholder="Ваше имя..." required /><br />
+      <input
+        type="text"
+        name="E-mail"
+        placeholder="Ваш E-mail..."
+        required
+      /><br />
+      <input type="text" name="Phone" placeholder="Номер телефона..." /><br />
+      <button>Отправить</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
